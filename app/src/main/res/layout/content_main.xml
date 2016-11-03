@@ -16,5 +16,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!2" />
+        android:text="Change Me!!"
+        android:id="@+id/MyText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp" />
+
+    <Button
+        android:text="Push Me!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MyButton"
+        android:textSize="14sp"
+        android:layout_marginTop="72dp"
+        android:layout_below="@+id/MyText"
+        android:layout_centerHorizontal="true"
+        android:onClick="changeLabel" />
 </RelativeLayout>
